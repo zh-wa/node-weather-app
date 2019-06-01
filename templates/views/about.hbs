@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400&display=swap" rel="stylesheet">  
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>About</title>
+</head>
+
+<body>
+    <div class="weather-app">
+        <div class="weather-body">
+            {{>header}}
+            <section class="main-content page-row">
+                <div class="about-tech">
+                    <p class="tech-descrition">
+                        Technology Stack for this web page:
+                    </p>
+                    <a href="#" class="tech-icon"><i class="icon ion-logo-html5"></i></a>
+                    <a href="#" class="tech-icon"><i class="icon ion-logo-css3"></i></a>
+                    <a href="#" class="tech-icon"><i class="icon ion-logo-javascript"></i></a>
+                    <a href="#" class="tech-icon"><i class="icon ion-logo-nodejs"></i></a>
+                    <a href="#" class="tech-icon"><i class="icon ion-logo-npm"></i></a>
+                    <a href="#" class="tech-icon"><i class="icon ion-logo-github"></i></a>
+                    <a href="#" class="tech-icon"><i class="icon ion-logo-ionic"></i></a>
+                </div>
+                <div class="about-api">
+                    <p>
+                        API for weather information: <span><a href="https://darksky.net/dev" target="_blank">Dark Sky API</a></span>
+                    </p>
+                    <p>
+                        API for Geo location: <span><a href="https://www.mapbox.com/" target="_blank">mapbox</a></span>
+                    </p>
+                </div>
+            </section>
+        </div>
+        {{>footer}}
+    </div>
+</body>
+
+</html>
